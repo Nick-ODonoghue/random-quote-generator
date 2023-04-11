@@ -40,7 +40,8 @@ Styling with bootstrap. Whilst I'm not 100% sold on using css framworks, I'm hap
 
 ## Site links
 
-[Random Quote Generator](https://www.NickOD.xyz)
+[Random Quote Generator](https://nick-odonoghue.github.io/random-quote-generator/)
+
 [NickOD.xyz](https://www.NickOD.xyz)
 
 <br>
@@ -48,6 +49,7 @@ Styling with bootstrap. Whilst I'm not 100% sold on using css framworks, I'm hap
 ## Useful resources
 
 [w3schools](https://www.w3schools.com/)
+
 [Bootstrap](https://getbootstrap.com/)
 
 <br>
