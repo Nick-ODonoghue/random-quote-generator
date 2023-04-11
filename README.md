@@ -1,12 +1,15 @@
 <h1 align="center">Random Qoute Generator | NickOD.xyz</h1>
 
-![Alt Text for Image Here]()
+![Screenshot of site](./images/RandomQuoteGen.jpg)
 
 <br>
 
 ## Overview
 
 This is a random quote generator using and API and styled with Bootstrap
+
+-   [API Github](https://github.com/lukePeavey/quotable)
+-   [EndPoint](https://api.quotable.io/random)
 
 <br>
 
@@ -20,7 +23,9 @@ This is a random quote generator using and API and styled with Bootstrap
 
 ## What I learned
 
-Working with APIs and styling with bootstrap
+Working with APIs, I used an eventListener on DOMContentLoaded. With this I wrote an async function "getQuote" that called on page load, enabling a quote to appear on the page everytime it is view. Within this function I used a try catch for the fetch API method.
+
+Styling with bootstrap. Whilst I'm not 100% sold on using css framworks, I'm happy this site doesn't immediately scream BOOTSTRAP when viewed.
 
 <br>
 
@@ -35,6 +40,7 @@ Working with APIs and styling with bootstrap
 
 ## Site links
 
+[Random Quote Generator](https://www.NickOD.xyz)
 [NickOD.xyz](https://www.NickOD.xyz)
 
 <br>
@@ -42,12 +48,13 @@ Working with APIs and styling with bootstrap
 ## Useful resources
 
 [w3schools](https://www.w3schools.com/)
+[Bootstrap](https://getbootstrap.com/)
 
 <br>
 
 ## Author
 
--   Website - [NickOD.xyz](http://www.NickOD.xyz) <em>COMIGN SOON</em>
+-   Website - [NickOD.xyz](http://www.NickOD.xyz)
 -   LinkedIn - [LinkedIn](https://www.linkedin.com/in/nick-odonoghue/)
 
 <br>
@@ -60,7 +67,7 @@ Working with APIs and styling with bootstrap
 
 [w3schools](https://www.w3schools.com/)
 
-[CSS Tricks](https://css-tricks.com/)
+[Web Dev Simplified](https://www.youtube.com/WebDevSimplified)
 
 [Kevin Powell](https://www.youtube.com/kepowob)
 
