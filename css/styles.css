@@ -6,3 +6,13 @@ body {
     box-shadow: 8px 8px hsl(0, 0%, 0%);
     max-width: 500px;
 }
+
+.btn {
+    box-shadow: 4px 4px hsl(0, 0%, 0%);
+    transition: all .4s;
+}
+
+.btn:hover {
+    background-color: hsl(354, 60%, 48%);
+    box-shadow: none;
+}
