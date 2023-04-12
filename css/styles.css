@@ -8,7 +8,8 @@ body {
     max-width: 500px;
 }
 
-.card-body {
+.quote,
+.author {
     animation: fadeIn 2s;
 }
 
@@ -43,8 +44,13 @@ body {
 
 .fa-star {
     color: hsla(51, 100%, 50%, 0.200);
+    font-size: 2rem;
 }
 
 .favourite {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
     color: hsl(51, 100%, 50%);
+    text-decoration: none;
 }
