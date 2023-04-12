@@ -38,17 +38,14 @@ document.addEventListener("DOMContentLoaded", () => {
     getQuote();
 });
 
-// localStorage.setItem("favourite", "{ author, john }");
-// let fav = localStorage.getItem("favourite");
-// console.log(fav)
-
 // Funtion for adding favourite to localStorage
 function addToFavourite() {
 
     // Grab DOM elements
     const quote = document.getElementById("quote");
     const author = document.getElementById("author");
-    const btn = document.getElementById("btn");
+    const favourite = document.querySelector(".favourite");
+    const star = document.querySelector(".fa-star");
 
     // Grab elements content
     const authorText = author.textContent;
@@ -63,8 +60,19 @@ function addToFavourite() {
     const favouriteArray = [favouriteHash];
 
     // Add to localStorage on click
-    btn.addEventListener("click", () => {
+    favourite.addEventListener("click", () => {
         localStorage.setItem("favourite", JSON.stringify(favouriteArray));
-        console.log(localStorage);
+        star.classList.add("favourite");
+        starHighlight();
     })
+}
+
+// Function for highlighting star
+function starHighlight() {
+
+    const star = document.querySelector(".fa-star");
+    if (localStorage.length > 0) {
+        star.classList.add("favourite");
+    }
+
 }

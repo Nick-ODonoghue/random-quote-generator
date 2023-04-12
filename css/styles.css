@@ -24,3 +24,15 @@ body {
     font-weight: 600;
     text-decoration: none;
 }
+
+/* .favourite {
+    color: black;
+} */
+
+.fa-star {
+    color: hsla(51, 100%, 50%, 0.200);
+}
+
+.favourite {
+    color: hsl(51, 100%, 50%);
+}
