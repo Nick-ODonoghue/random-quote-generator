@@ -44,13 +44,15 @@ body {
 
 .fa-star {
     color: hsla(51, 100%, 50%, 0.200);
-    font-size: 2rem;
+    font-size: 1.8rem;
+}
+
+.fa-trash-can {
+    color: hsla(0, 0%, 42%, 0.600);
+    font-size: 1.8rem;
 }
 
 .favourite {
-    display: inline-block;
-    width: 2rem;
-    height: 2rem;
     color: hsl(51, 100%, 50%);
     text-decoration: none;
 }
