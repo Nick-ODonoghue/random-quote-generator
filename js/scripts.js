@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Update DOM elements only if response is OK
                 quote.textContent = data.content;
                 author.textContent = data.author;
+                addToFavourite()
             }
 
         } catch (error) {
@@ -36,3 +37,34 @@ document.addEventListener("DOMContentLoaded", () => {
     // Once page is loaded the getQuote function is called, so there will always be a quote on page
     getQuote();
 });
+
+// localStorage.setItem("favourite", "{ author, john }");
+// let fav = localStorage.getItem("favourite");
+// console.log(fav)
+
+// Funtion for adding favourite to localStorage
+function addToFavourite() {
+
+    // Grab DOM elements
+    const quote = document.getElementById("quote");
+    const author = document.getElementById("author");
+    const btn = document.getElementById("btn");
+
+    // Grab elements content
+    const authorText = author.textContent;
+    const quoteText = quote.textContent;
+
+    // Create and update hash
+    const favouriteHash = {};
+    favouriteHash.author = authorText;
+    favouriteHash.quote = quoteText;
+
+    // Create and update array
+    const favouriteArray = [favouriteHash];
+
+    // Add to localStorage on click
+    btn.addEventListener("click", () => {
+        localStorage.setItem("favourite", JSON.stringify(favouriteArray));
+        console.log(localStorage);
+    })
+}
