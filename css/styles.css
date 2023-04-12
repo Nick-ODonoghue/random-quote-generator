@@ -8,6 +8,22 @@ body {
     max-width: 500px;
 }
 
+.card-body {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+
+    0%,
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .btn {
     box-shadow: 4px 4px hsl(0, 0%, 0%);
     transition: all .4s;
@@ -24,10 +40,6 @@ body {
     font-weight: 600;
     text-decoration: none;
 }
-
-/* .favourite {
-    color: black;
-} */
 
 .fa-star {
     color: hsla(51, 100%, 50%, 0.200);
