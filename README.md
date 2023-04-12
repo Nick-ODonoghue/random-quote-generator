@@ -6,10 +6,10 @@
 
 ## Overview
 
-This is a random quote generator using and API and styled with Bootstrap
+This is a random quote generator using the fetch API and local storage for persistent data, allowing users to save their favourite quote. Styled with Bootstrap.
 
--   [API Github](https://github.com/lukePeavey/quotable)
--   [EndPoint](https://api.quotable.io/random)
+-   [API Github](https://github.com/lukePeavey/quotable) used.
+-   [EndPoint](https://api.quotable.io/random) for reference.
 
 <br>
 
@@ -18,7 +18,7 @@ This is a random quote generator using and API and styled with Bootstrap
 -   Set HTML
 -   Style with bootstrap
 -   Write js to interact with API
--   Interact with local storage so user can add and save their favourite quote
+-   Interact with local storage so user can add and delete their favourite quote
 
 <br>
 
@@ -26,9 +26,10 @@ This is a random quote generator using and API and styled with Bootstrap
 
 Working with APIs, I used an eventListener on DOMContentLoaded. With this I wrote an async function "getQuote" that called on page load, enabling a quote to appear on the page everytime it is view. Within this function I used a try catch for the fetch API method.
 
-I decided to add to this app as I wanted a feature to be able to save a favourite quote. So looked into local storage. Once I had a grasp on that I added the js code needed to allow users to add and remove their favourite quote. Everytime the page is reloaded the app will look to see if they have a favourite quote saved and load it for them on first use.
-
 Styling with bootstrap. Whilst I'm not 100% sold on using css framworks, I'm happy this site doesn't immediately scream BOOTSTRAP when viewed.
+
+\*\*UPDATE
+I decided to add to this app as I wanted a feature to be able to save a favourite quote. So I looked into local storage. Once I had a grasp on that I added the js code needed to allow users to add and remove their favourite quote. Everytime the page is reloaded the app will look to see if they have a favourite quote saved and load it for them on first use.
 
 <br>
 
@@ -43,9 +44,9 @@ Styling with bootstrap. Whilst I'm not 100% sold on using css framworks, I'm hap
 
 ## Site links
 
-[Random Quote Generator](https://nick-odonoghue.github.io/random-quote-generator/)
+[Random Quote Generator](https://nick-odonoghue.github.io/random-quote-generator/) live page
 
-[NickOD.xyz](https://www.NickOD.xyz)
+[NickOD.xyz](https://www.NickOD.xyz) my portfolio
 
 <br>
 
@@ -57,9 +58,9 @@ Styling with bootstrap. Whilst I'm not 100% sold on using css framworks, I'm hap
 
 <br>
 
-## Author
+## Author & Contact - lets connect
 
--   Website - [NickOD.xyz](http://www.NickOD.xyz)
+-   Portfolio - [NickOD.xyz](http://www.NickOD.xyz)
 -   LinkedIn - [LinkedIn](https://www.linkedin.com/in/nick-odonoghue/)
 
 <br>
