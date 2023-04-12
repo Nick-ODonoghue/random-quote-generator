@@ -36,6 +36,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Once page is loaded the getQuote function is called, so there will always be a quote on page
     getQuote();
+    starHighlight();
+    updateUI();
 });
 
 // Funtion for adding favourite to localStorage
@@ -75,4 +77,15 @@ function starHighlight() {
         star.classList.add("favourite");
     }
 
+}
+
+// function to update UI with favourite quote if one is stored
+function updateUI() {
+    if (localStorage.length > 0) {
+        setTimeout(() => {
+            const storedFavourite = JSON.parse(localStorage.favourite);
+            quote.textContent = storedFavourite[0].quote;
+            author.textContent = storedFavourite[0].author;
+        }, 500);
+    }
 }
