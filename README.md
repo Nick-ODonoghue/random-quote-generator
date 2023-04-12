@@ -18,12 +18,15 @@ This is a random quote generator using and API and styled with Bootstrap
 -   Set HTML
 -   Style with bootstrap
 -   Write js to interact with API
+-   Interact with local storage so user can add and save their favourite quote
 
 <br>
 
 ## What I learned
 
 Working with APIs, I used an eventListener on DOMContentLoaded. With this I wrote an async function "getQuote" that called on page load, enabling a quote to appear on the page everytime it is view. Within this function I used a try catch for the fetch API method.
+
+I decided to add to this app as I wanted a feature to be able to save a favourite quote. So looked into local storage. Once I had a grasp on that I added the js code needed to allow users to add and remove their favourite quote. Everytime the page is reloaded the app will look to see if they have a favourite quote saved and load it for them on first use.
 
 Styling with bootstrap. Whilst I'm not 100% sold on using css framworks, I'm happy this site doesn't immediately scream BOOTSTRAP when viewed.
 
@@ -34,7 +37,7 @@ Styling with bootstrap. Whilst I'm not 100% sold on using css framworks, I'm hap
 -   Mobile First Workflow
 -   Semantic HTML5 Markup
 -   Bootstrap
--   JS
+-   JS / Fetch API / localStorage
 
 <br>
 
