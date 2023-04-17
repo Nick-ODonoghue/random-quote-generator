@@ -24,12 +24,12 @@ This is a random quote generator using the fetch API and local storage for persi
 
 ## What I learned
 
+\*\*UPDATE
+I decided to add to this app as I wanted a feature to be able to save a favourite quote. So I looked into local storage. Once I had a grasp on that I added the js code needed to allow users to add and remove their favourite quote. Everytime the page is reloaded the app will look to see if they have a favourite quote saved and load it for them on first use.
+
 Working with APIs, I used an eventListener on DOMContentLoaded. With this I wrote an async function "getQuote" that called on page load, enabling a quote to appear on the page everytime it is view. Within this function I used a try catch for the fetch API method.
 
 Styling with bootstrap. Whilst I'm not 100% sold on using css framworks, I'm happy this site doesn't immediately scream BOOTSTRAP when viewed.
-
-\*\*UPDATE
-I decided to add to this app as I wanted a feature to be able to save a favourite quote. So I looked into local storage. Once I had a grasp on that I added the js code needed to allow users to add and remove their favourite quote. Everytime the page is reloaded the app will look to see if they have a favourite quote saved and load it for them on first use.
 
 <br>
 
@@ -45,8 +45,6 @@ I decided to add to this app as I wanted a feature to be able to save a favourit
 ## Site links
 
 [Random Quote Generator](https://nick-odonoghue.github.io/random-quote-generator/) live page
-
-[NickOD.xyz](https://www.NickOD.xyz) my portfolio
 
 <br>
 
